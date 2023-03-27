@@ -2277,7 +2277,12 @@ Past Events about
 
 @media (max-width:425px){
     .containersp{
-        width: 90%;
+        width: 100%;
+    }
+
+    .contentsp.front{
+        width: max-content;
+        min-width: max-content;
     }
 }
 
